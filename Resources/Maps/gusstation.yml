@@ -10541,6 +10541,8 @@ entities:
         - Start: Close
         - Timer: AutoClose
         - Timer: Open
+        - Start: DoorBolt
+        - Timer: DoorBolt
       type: DeviceLinkSource
   - uid: 10667
     components:
@@ -10554,6 +10556,8 @@ entities:
         - Start: Close
         - Timer: AutoClose
         - Timer: Open
+        - Start: DoorBolt
+        - Timer: DoorBolt
       type: DeviceLinkSource
   - uid: 10670
     components:
@@ -10567,6 +10571,8 @@ entities:
         - Start: Close
         - Timer: AutoClose
         - Timer: Open
+        - Timer: DoorBolt
+        - Start: DoorBolt
       type: DeviceLinkSource
   - uid: 10784
     components:
@@ -10580,6 +10586,8 @@ entities:
         - Start: Close
         - Timer: AutoClose
         - Timer: Open
+        - Start: DoorBolt
+        - Timer: DoorBolt
       type: DeviceLinkSource
 - proto: BrokenBottle
   entities:
@@ -86910,7 +86918,7 @@ entities:
       type: SurveillanceCamera
     - cameraCategory:
       - SurveillanceCameraGeneral
-      cameraName: camera
+      cameraName: beach camera
       enabled: True
       type: AICamera
     - type: Visibility
@@ -87919,7 +87927,7 @@ entities:
       type: SurveillanceCamera
     - cameraCategory:
       - SurveillanceCameraSecurity
-      cameraName: camera
+      cameraName: courtroom camera
       enabled: True
       type: AICamera
     - type: Visibility
